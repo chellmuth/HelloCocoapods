@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F31C3E617887D21008BDA47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F31C3E517887D21008BDA47 /* UIKit.framework */; };
+		3F31C3E817887D21008BDA47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F31C3E717887D21008BDA47 /* Foundation.framework */; };
+		3F31C3EA17887D21008BDA47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F31C3E917887D21008BDA47 /* CoreGraphics.framework */; };
+		3F31C3F017887D21008BDA47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F31C3EE17887D21008BDA47 /* InfoPlist.strings */; };
+		3F31C3F217887D21008BDA47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F31C3F117887D21008BDA47 /* main.m */; };
+		3F31C3F617887D21008BDA47 /* HCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F31C3F517887D21008BDA47 /* HCAppDelegate.m */; };
+		3F31C3F817887D21008BDA47 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F31C3F717887D21008BDA47 /* Default.png */; };
+		3F31C3FA17887D21008BDA47 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F31C3F917887D21008BDA47 /* Default@2x.png */; };
+		3F31C3FC17887D21008BDA47 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F31C3FB17887D21008BDA47 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F31C3E217887D21008BDA47 /* HelloCocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocoapods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F31C3E517887D21008BDA47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F31C3E717887D21008BDA47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F31C3E917887D21008BDA47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F31C3ED17887D21008BDA47 /* HelloCocoapods-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoapods-Info.plist"; sourceTree = "<group>"; };
+		3F31C3EF17887D21008BDA47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F31C3F117887D21008BDA47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F31C3F317887D21008BDA47 /* HelloCocoapods-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCocoapods-Prefix.pch"; sourceTree = "<group>"; };
+		3F31C3F417887D21008BDA47 /* HCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCAppDelegate.h; sourceTree = "<group>"; };
+		3F31C3F517887D21008BDA47 /* HCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCAppDelegate.m; sourceTree = "<group>"; };
+		3F31C3F717887D21008BDA47 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3F31C3F917887D21008BDA47 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3F31C3FB17887D21008BDA47 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F31C3DF17887D21008BDA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F31C3E617887D21008BDA47 /* UIKit.framework in Frameworks */,
+				3F31C3E817887D21008BDA47 /* Foundation.framework in Frameworks */,
+				3F31C3EA17887D21008BDA47 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F31C3D917887D21008BDA47 = {
+			isa = PBXGroup;
+			children = (
+				3F31C3EB17887D21008BDA47 /* HelloCocoapods */,
+				3F31C3E417887D21008BDA47 /* Frameworks */,
+				3F31C3E317887D21008BDA47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F31C3E317887D21008BDA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F31C3E217887D21008BDA47 /* HelloCocoapods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F31C3E417887D21008BDA47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F31C3E517887D21008BDA47 /* UIKit.framework */,
+				3F31C3E717887D21008BDA47 /* Foundation.framework */,
+				3F31C3E917887D21008BDA47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F31C3EB17887D21008BDA47 /* HelloCocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				3F31C3F417887D21008BDA47 /* HCAppDelegate.h */,
+				3F31C3F517887D21008BDA47 /* HCAppDelegate.m */,
+				3F31C3EC17887D21008BDA47 /* Supporting Files */,
+			);
+			path = HelloCocoapods;
+			sourceTree = "<group>";
+		};
+		3F31C3EC17887D21008BDA47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F31C3ED17887D21008BDA47 /* HelloCocoapods-Info.plist */,
+				3F31C3EE17887D21008BDA47 /* InfoPlist.strings */,
+				3F31C3F117887D21008BDA47 /* main.m */,
+				3F31C3F317887D21008BDA47 /* HelloCocoapods-Prefix.pch */,
+				3F31C3F717887D21008BDA47 /* Default.png */,
+				3F31C3F917887D21008BDA47 /* Default@2x.png */,
+				3F31C3FB17887D21008BDA47 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F31C3E117887D21008BDA47 /* HelloCocoapods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F31C3FF17887D21008BDA47 /* Build configuration list for PBXNativeTarget "HelloCocoapods" */;
+			buildPhases = (
+				3F31C3DE17887D21008BDA47 /* Sources */,
+				3F31C3DF17887D21008BDA47 /* Frameworks */,
+				3F31C3E017887D21008BDA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloCocoapods;
+			productName = HelloCocoapods;
+			productReference = 3F31C3E217887D21008BDA47 /* HelloCocoapods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F31C3DA17887D21008BDA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Chris Hellmuth";
+			};
+			buildConfigurationList = 3F31C3DD17887D21008BDA47 /* Build configuration list for PBXProject "HelloCocoapods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F31C3D917887D21008BDA47;
+			productRefGroup = 3F31C3E317887D21008BDA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F31C3E117887D21008BDA47 /* HelloCocoapods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F31C3E017887D21008BDA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F31C3F017887D21008BDA47 /* InfoPlist.strings in Resources */,
+				3F31C3F817887D21008BDA47 /* Default.png in Resources */,
+				3F31C3FA17887D21008BDA47 /* Default@2x.png in Resources */,
+				3F31C3FC17887D21008BDA47 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F31C3DE17887D21008BDA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F31C3F217887D21008BDA47 /* main.m in Sources */,
+				3F31C3F617887D21008BDA47 /* HCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F31C3EE17887D21008BDA47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F31C3EF17887D21008BDA47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F31C3FD17887D21008BDA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F31C3FE17887D21008BDA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F31C40017887D21008BDA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCocoapods/HelloCocoapods-Prefix.pch";
+				INFOPLIST_FILE = "HelloCocoapods/HelloCocoapods-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F31C40117887D21008BDA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCocoapods/HelloCocoapods-Prefix.pch";
+				INFOPLIST_FILE = "HelloCocoapods/HelloCocoapods-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F31C3DD17887D21008BDA47 /* Build configuration list for PBXProject "HelloCocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F31C3FD17887D21008BDA47 /* Debug */,
+				3F31C3FE17887D21008BDA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F31C3FF17887D21008BDA47 /* Build configuration list for PBXNativeTarget "HelloCocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F31C40017887D21008BDA47 /* Debug */,
+				3F31C40117887D21008BDA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F31C3DA17887D21008BDA47 /* Project object */;
+}
