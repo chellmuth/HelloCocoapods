@@ -14,8 +14,18 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor orangeColor];
     [self.window makeKeyAndVisible];
+
+    UILabel *youDidIt = [[UILabel alloc] initWithFrame:CGRectZero];
+    youDidIt.backgroundColor = [UIColor clearColor];
+    youDidIt.text = @"Cocoapods!";
+    youDidIt.font = [UIFont systemFontOfSize:48.f];
+    [youDidIt sizeToFit];
+    youDidIt.center = CGPointMake(CGRectGetMidX(self.window.bounds), CGRectGetMidY(self.window.bounds));
+
+    [self.window addSubview:youDidIt];
+
     return YES;
 }
 
