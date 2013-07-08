@@ -4,4 +4,5 @@ inhibit_all_warnings!
 
 pod 'JSONKit',       '~> 1.4'
 pod 'Reachability',  '~> 3.0.0'
+pod 'OLImageView',   '~> 1.2.0'
 

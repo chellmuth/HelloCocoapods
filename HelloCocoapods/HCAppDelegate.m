@@ -7,6 +7,8 @@
 //
 
 #import "HCAppDelegate.h"
+#import "OLImageView.h"
+#import "OLImage.h"
 
 @implementation HCAppDelegate
 
@@ -16,15 +18,20 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor orangeColor];
     [self.window makeKeyAndVisible];
-
+    
     UILabel *youDidIt = [[UILabel alloc] initWithFrame:CGRectZero];
     youDidIt.backgroundColor = [UIColor clearColor];
-    youDidIt.text = @"Cocoapods!";
-    youDidIt.font = [UIFont systemFontOfSize:48.f];
+    youDidIt.text = @"Submodules?";
+    youDidIt.font = [UIFont boldSystemFontOfSize:40.f];
     [youDidIt sizeToFit];
-    youDidIt.center = CGPointMake(CGRectGetMidX(self.window.bounds), CGRectGetMidY(self.window.bounds));
-
+    youDidIt.center = CGPointMake(CGRectGetMidX(self.window.bounds), 72.0f);
     [self.window addSubview:youDidIt];
+
+    NSData *gifData = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"timeforthat" ofType:@"gif"]];
+    UIImage *gif = [OLImage imageWithData:gifData];
+    OLImageView *timeforthat = [[OLImageView alloc] initWithFrame:CGRectMake(0,130,self.window.frame.size.width,(self.window.frame.size.height - 130))];
+    timeforthat.image = gif;
+    [self.window addSubview:timeforthat];
 
     return YES;
 }
